@@ -11,7 +11,7 @@ Below is the CI/CD architecture diagram illustrating the flow from code commit t
 
 This repository outlines a Continuous Integration and Continuous Deployment (CI/CD) pipeline for deploying a Python web application on AWS using an EC2 instance. The pipeline automates the process of building, testing, and deploying the application using Jenkins, Docker, and Maven, with source code managed in a Git repository (GitHub or GitLab). The application is containerized and deployed on the same EC2 instance, accessible via HTTP on port 80.
 
-The architecture leverages AWS infrastructure, Jenkins for orchestration, Docker for containerization, and Maven for build automation, ensuring a streamlined deployment process.
+The architecture leverages AWS infrastructure, Jenkins for orchestration, Docker for containerization, and Maven for build automation, ensuring a streamlined deployment.. process.
 
 ### Diagram Explanation
 - **Developer**: Commits Python application code and Dockerfile to a Git repository (GitHub/GitLab).
